@@ -1,22 +1,21 @@
 {
-  // "parser": "@babel/eslint-parser",
+  "parser": "@babel/eslint-parser",
   "extends": [
-    // "eslint:recommended",
+    "eslint:recommended",
     "airbnb/base"
-  ]
-  ,
+  ],
   "env": {
     "browser": true,
     "es6": true,
     "node": true
-  }
-  ,
-  // "parserOptions": {
-  //   "ecmaVersion": 8,
-  //   "sourceType": "module",
-  //   "requireConfigFile": false
-  // },
+  },
+   "parserOptions": {
+     "ecmaVersion": 8,
+     "sourceType": "module",
+     "requireConfigFile": false
+   },
   "rules": {
+    "plugin/stylelint-bem-namics": true,
     "semi": 2,
     "no-plusplus": "off",
     "eol-last": "off",
@@ -27,6 +26,5 @@
     "prefer-destructuring": "off",
     "indent": [2, "tab"],
     "no-param-reassign": "off"
-
   }
 }
