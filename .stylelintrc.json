@@ -9,6 +9,7 @@
     "selector-class-pattern": ".",
     "no-missing-end-of-source-newline": null,
     "no-empty-source": true,
-    "indentation": "tab"
+    "no-invalid-double-slash-comments": null,
+    "property-no-unknown": null
   }
 }
