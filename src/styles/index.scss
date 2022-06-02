@@ -1,16 +1,9 @@
+@import "./media.scss";
+@import "./blocks/headerNavBar.scss";
+
 $body-color: slateblue;
 
 body {
   color: $body-color;
   font-family: sans-serif;
-}
-
-.col__item_fff {
-  background-color: red;
-  border: 2px solid black;
-  text-align: center;
-}
-
-.baton {
-  background-color: rgb(52, 129, 52);
 }

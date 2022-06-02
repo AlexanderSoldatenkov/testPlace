@@ -1,9 +1,14 @@
 {
   "extends": "stylelint-config-standard",
+  "plugins": [
+    "@namics/stylelint-bem"
+  ],
   "rules": {
-    "no-missing-end-of-source-newline": null,
+    "plugin/stylelint-bem-namics": true,
     "color-function-notation": "legacy",
-    "selector-class-pattern": "."
+    "selector-class-pattern": ".",
+    "no-missing-end-of-source-newline": null,
+    "indentation": [ "tab", { "baseIndentLevel": "auto"} ],
+    "no-empty-source": true
   }
-
 }

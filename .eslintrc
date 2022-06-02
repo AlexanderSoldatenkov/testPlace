@@ -1,20 +1,19 @@
 {
   "parser": "@babel/eslint-parser",
   "extends": [
-    "eslint:recommended"
-    // "airbnb/base"
-  ]
-  ,
+    "eslint:recommended",
+    "airbnb/base"
+  ],
   "env": {
     "browser": true,
     "es6": true,
     "node": true
   },
-  "parserOptions": {
-    "ecmaVersion": 8,
-    "sourceType": "module",
-    "requireConfigFile": false
-  },
+   "parserOptions": {
+     "ecmaVersion": 8,
+     "sourceType": "module",
+     "requireConfigFile": false
+   },
   "rules": {
     "semi": 2,
     "no-plusplus": "off",
