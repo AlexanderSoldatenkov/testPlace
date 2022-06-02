@@ -8,7 +8,7 @@
     "color-function-notation": "legacy",
     "selector-class-pattern": ".",
     "no-missing-end-of-source-newline": null,
-    "indentation": [ "tab", { "baseIndentLevel": "auto"} ],
-    "no-empty-source": true
+    "no-empty-source": true,
+    "indentation": "tab"
   }
 }
