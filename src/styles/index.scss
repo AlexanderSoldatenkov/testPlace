@@ -1,10 +1,10 @@
-@import "./media.scss";
-@import "./blocks/headerNavBar.scss";
-@import "./blocks/mainIMG.scss";
+@import "./variables";
+@import "./media";
+/* @import "./libs/iconmoon_style";
+@import "./blocks/headerNavBar"; */
 
 $body-color: slateblue;
 
 body {
-  color: $body-color;
-  //font-family: sans-serif;
+  font-family: sans-serif;
 }
