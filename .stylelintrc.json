@@ -14,6 +14,6 @@
     "no-invalid-double-slash-comments": null,
     "color-hex-case": "upper",
     "comment-empty-line-before": "never",
-    "length-zero-no-unit": true,
+    "length-zero-no-unit": true
 }
 }

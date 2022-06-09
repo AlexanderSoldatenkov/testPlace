@@ -27,6 +27,7 @@
   background-color: rgb(182, 182, 182);
 
   &__img {
+    display: none;
     width: 100%;
     height: 600px;
     object-fit: contain;
@@ -34,5 +35,31 @@
 
   &__main-block {
     /* background-color: rgb(219, 58, 58); */
+    position: relative;
   }
+
+  &__arow {
+    position: absolute;
+    /*     width: inherit;
+    height: inherit; */
+    z-index: 5;
+
+    &-left {
+      width: 50px;
+      height: 50px;
+    }
+
+    &-right {
+      display: block;
+      width: 50px;
+      height: 50px;
+      /*       justify-content: center;
+      align-content: center; */
+      margin: 0 auto;
+    }
+  }
+}
+
+.active-class {
+  display: block;
 }
